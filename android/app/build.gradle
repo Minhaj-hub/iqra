@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localProperties.load(new FileReader(localPropertiesFile))
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+def kotlin_version = '1.9.0'
+
+android {
+    namespace = "com.quran.iqra"
+    compileSdkVersion 34
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId "com.quran.iqra"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 8 // Set the next available version code here
+        versionName "1.0"
+    }
+
+    // signingConfigs {
+    //     release {
+    //         keyAlias 'my-key-alias'
+    //         keyPassword 'Aman@2020'
+    //         storeFile file('C:/Users/apexm/my-release-key.keystore')
+    //         storePassword 'Aman@2020'
+    //     }
+    // }
+
+    buildTypes {
+        release {
+            // signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            if (details.requested.group == 'androidx.customview' && details.requested.name == 'customview') {
+                details.useVersion "1.0.0"
+            }
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation platform('com.google.firebase:firebase-bom:33.2.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.firebase:firebase-appcheck-playintegrity'
+}
+
+apply plugin: 'com.google.gms.google-services'

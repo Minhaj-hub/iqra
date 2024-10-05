@@ -1,0 +1,82 @@
+name: Iqra
+description: A beautiful islamic app.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+# <!-- tools:keep="@raw/fajr_adhan @raw/notification @raw/regular_adhan" -->
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  audioplayers: ^6.1.0
+  cupertino_icons: ^1.0.6
+  firebase_core: ^3.5.0
+  firebase_storage: ^12.3.1
+  flutter:
+    sdk: flutter
+  flutter_compass: ^0.8.0
+  flutter_local_notifications: ^17.2.1
+  flutter_svg: ^2.0.9
+  fluttertoast: ^ 8.2.8
+  font_awesome_flutter: ^10.1.0
+  geocoding: ^3.0.0
+  geolocator: ^13.0.1
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  intl: ^0.19.0
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  provider: ^6.1.2
+  screenshot: ^3.0.0
+  scrollable_positioned_list: ^0.3.8
+  sensors_plus: ^6.0.1
+  share_plus: ^10.0.2
+  shared_preferences: ^2.0.15
+  timezone: ^0.9.0
+  url_launcher: ^6.3.0
+  uuid: ^4.5.1
+  vibration: ^2.0.0
+  visibility_detector: ^0.4.0+2
+  youtube_explode_dart: ^2.2.1
+  youtube_player_flutter: ^9.0.4
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/quran_data.json
+    - assets/images/bismillah_calligraphy.png
+    - assets/bismillah_calligraphy.png
+    - assets/fonts/IndoPak.ttf
+    - assets/images/ummah.png
+    - assets/images/morning.png
+    - assets/images/evening.png
+    - assets/images/before_sleep.png
+    - assets/images/salah.png
+    - assets/images/after_salah.png
+    - assets/images/ruqyah.png
+    - assets/images/waking_up.png
+    - assets/images/nightmares.png
+    - assets/images/clothes.png
+    - assets/images/wudu.png
+    - assets/images/food_drink.png
+    - assets/images/home.png
+    - assets/images/hajj_umrah.png
+    - assets/duas.json
+    - assets/images/
+    - assets/sound/
+    - assets/sound/fajr_adhan.mp3
+    - assets/sound/regular_adhan.mp3
+    - assets/sound/notification.mp3
+    - assets/quotes.json
+
+  fonts:
+    - family: IndoPak
+      fonts:
+        - asset: assets/fonts/IndoPak.ttf

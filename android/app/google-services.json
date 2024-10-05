@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109929743130",
+    "project_id": "quraan-5c4f4",
+    "storage_bucket": "quraan-5c4f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109929743130:android:3c615494de067f7cfbe2a3",
+        "android_client_info": {
+          "package_name": "com.quran.iqra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCipduIqYyj6q_rfXw03R2ZjvrWfv3TISw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+ F:\\iqra_new\\.dart_tool\\flutter_build\\e8b293e42742a437037c2bb08fd3336a\\native_assets.yaml: 

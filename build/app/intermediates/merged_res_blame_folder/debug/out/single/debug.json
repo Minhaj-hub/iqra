@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-hdpi_app_icon.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-xxhdpi_app_icon.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/raw_fajr_adhan.mp3.flat",
+        "source": "com.quran.iqra.app-main-37:/raw/fajr_adhan.mp3"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-xhdpi_app_icon.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/raw_keep.xml.flat",
+        "source": "com.quran.iqra.app-main-37:/raw/keep.xml"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/raw_regular_adhan.mp3.flat",
+        "source": "com.quran.iqra.app-main-37:/raw/regular_adhan.mp3"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-mdpi_app_icon.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/raw_notification.mp3.flat",
+        "source": "com.quran.iqra.app-main-37:/raw/notification.mp3"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/drawable-v21_app_icon.png.flat",
+        "source": "com.quran.iqra.app-main-37:/drawable-v21/app_icon.png"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/drawable-v21_launch_background.xml.flat",
+        "source": "com.quran.iqra.app-main-37:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.quran.iqra.app-merged_res-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.quran.iqra.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    }
+]
